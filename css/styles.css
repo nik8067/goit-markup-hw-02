@@ -1,6 +1,55 @@
+.page {
+    background-color:#FFFFFF;
+    color:#212121;
+    }
+/*Logo link color*/
 .logo-link {
-    color:blue;
+    color:#2196F3;
 }
 .logo-header {
-    color: black;
+    color: #000000
 }
+/*Прибрати всі списки*/
+ul {
+    list-style: none;
+}
+/*Site nav color*/
+.site-nav a {
+    color:#212121;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color:#2196F3;
+}
+.info-nav a {
+    color:#212121;
+}
+.info-nav a:hover,
+.info-nav a:focus {
+color:#2196F3;
+}
+/*Hero*/
+.hero-title {
+    color:#FFFFFF;
+}
+/*Section,section-title*/
+.section-title {
+    color:#212121;
+}
+
+
+
+
+/*Колір основного тексту сторінки #212121;*/
+
+
+/*Другорядний колір тексту на сторінці #757575;*/
+
+
+/*Білий колір #FFFFFF;*/
+
+
+/*Акцент #2196F3;*/
+
+
+/*Другорядний колір Футер сайту rgba(255, 255, 255, 0.6);*/
