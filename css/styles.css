@@ -36,7 +36,10 @@ color:#2196F3;
 .section-title {
     color:#212121;
 }
-
+/*Усі параграфи*/
+.feature .feature-list .title {
+    color:#757575;
+}
 
 
 
