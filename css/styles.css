@@ -1,47 +1,67 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #2196F3;
+    --accent-text-color: #757575;
+    --primary-bck-color: #F5F5F5;
+}
+/*Стилі для сторінки index.html*/
 .page {
-    background-color:#FFFFFF;
-    color:#212121;
+    background-color: var(--primary-bck-color);
+    color: var(--primary-text-color);
     }
 /*Logo link color*/
 .logo-link {
-    color:#2196F3;
+    color: #2196F3;
 }
 .logo-header {
-    color: #000000
+    color: #000000;
 }
 /*Прибрати всі списки*/
 ul {
     list-style: none;
 }
 /*Site nav color*/
-.site-nav a {
-    color:#212121;
+.site-nav .link {
+    color: var(--primary-text-color);
 }
-.site-nav a:hover,
-.site-nav a:focus {
-    color:#2196F3;
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--title-text-color);
+}
+.site-nav .link.current {
+color: var(--title-text-color);
 }
 .info-nav a {
-    color:#212121;
+    color: var(--primary-text-color);
 }
 .info-nav a:hover,
 .info-nav a:focus {
-color:#2196F3;
+color: var(--title-text-color);
 }
 /*Hero*/
 .hero-title {
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
 /*Section,section-title*/
 .section-title {
-    color:#212121;
+    color: var(--primary-text-color);
 }
 /*Усі параграфи*/
 .feature-list .title {
-    color:#757575;
+    color: var(--accent-text-color);
 }
-
-
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--primary-bck-color);
+}
+.button.primary {
+    color: var(--primary-bck-color);
+    background-color: var(--title-text-color);
+}
+/*Footer*/
+.contact-title {
+    color: rgba(255, 255, 255, 0.6);
+}
 
 /*Колір основного тексту сторінки #212121;*/
 
@@ -56,3 +76,5 @@ color:#2196F3;
 
 
 /*Другорядний колір Футер сайту rgba(255, 255, 255, 0.6);*/
+
+/*Стилі для сторінки portfolio.html*/
