@@ -6,7 +6,7 @@
     --white-fons-color: #FFFFFF;
     --black-fons-color: #2F303A;
 }
-/*Стилі для сторінки index.html*/
+/*------CSS для сторінки СТУДІЯ---------*/
 .page {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -81,6 +81,7 @@ color: var(--title-text-color);
 /*Кнопка heder*/
 button {
     font-family: inherit;
+    border: none;
 }
 .button {
     font-weight: 700;
@@ -95,7 +96,8 @@ button {
     color: var(--white-fons-color);
     background-color: var(--title-text-color);
 }
-.button.primary:hover {
+.button.primary:hover,
+.button.primary:active {
     background-color: var(--title-text-color);
 }
 /*content-title*/
@@ -198,6 +200,51 @@ button {
 a {
     font-style: normal;
 }
+/*------CSS для сторінки ПОРТФОЛІО---------*/
+/*Список моя сторінка*/
+.button-title {
+
+}
+.button-second {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+} 
+.button-second:hover,
+.button-second:active {
+    color: var(--white-fons-color);
+    background-color: var(--title-text-color);
+}
+/*Список Контекстне меню*/
+.benefits {
+
+}
+.benefits-title {
+
+}
+.benetits-subtitle {
+
+}
+.benefits-items{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.benefits-uptitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--accent-text-color);
+}
+
+
+
+
 /*Колір основного тексту сторінки #212121;*/
 
 
