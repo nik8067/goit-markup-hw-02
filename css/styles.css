@@ -3,14 +3,19 @@
     --title-text-color: #2196F3;
     --accent-text-color: #757575;
     --primary-bck-color: #F5F5F5;
+    --white-fons-color: #FFFFFF;
+    --black-fons-color: #2F303A;
 }
 /*Стилі для сторінки index.html*/
 .page {
-    background-color: var(--primary-bck-color);
-    color: var(--primary-text-color);
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-bck-color);
+    color: var(--primary-text-color);
     letter-spacing: 0.03em;
+    }
+    .page-header {
+        background-color: var(--white-fons-color);
     }
 /*Logo link color*/
 .logo-link {
@@ -54,13 +59,16 @@ color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    color: var(--accent-text-color);
 }
 .info-nav a:hover,
 .info-nav a:focus {
 color: var(--title-text-color);
 }
 /*Hero*/
+.hero {
+    background-color: #2F303A;
+}
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -69,46 +77,6 @@ color: var(--title-text-color);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    background-color: #2F303A;
-}
-/*content-title*/
-.content-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--primary-text-color);
-}
-.feature-list .title {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--accent-text-color);
-}
-/*section-title*/
-.section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.67;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-}
-.benefits-list .items {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-}
-
-.benefits-list .subtitle {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-    color: var(--accent-text-color);
 }
 /*Кнопка heder*/
 button {
@@ -119,37 +87,117 @@ button {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    color: var(--primary-text-color);
+    color: var(--white-fons-color);
     background-color: var(--primary-bck-color);
     cursor: pointer;
 }
 .button.primary {
-    color: var(--primary-bck-color);
+    color: var(--white-fons-color);
     background-color: var(--title-text-color);
 }
-.button.primary:hover{
+.button.primary:hover {
     background-color: var(--title-text-color);
 }
-/*Footer*/
-.contact-title {
-    font-weight: 400;
+/*content-title*/
+.content {
+
+}
+.content-text {
+    font-weight: 700;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    color: var(--primary-text-color);
 }
-.address-title {
+.content-subtitle .title {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
-    background-color: ;
+    color: var(--accent-text-color);
 }
-.contact {
-    background-color: #2F303A;
-}
+/*section-title*/
+.section {
 
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.67;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.section-uptitle {
+
+}
+/*Features-title*/
+.features {
+    background-color: #F5F4FA;
+}
+.features-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.67;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.features-uptitle {
+    background-color: var(--white-fons-color);
+}
+.features-subtitle .items {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.features-subtitle .text-title {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--accent-text-color);
+}
+/*Footer*/
+.contact {
+    background-color: var(--black-fons-color);
+}
+.heder-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--white-fons-color);
+}
+.contact-title {
+    
+}
+.contact-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white-fons-color);
+}
+.contact-uptitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contact-items .contact-uptitle:hover,
+.contact-items .contact-uptitle:focus {
+    color: var(--title-text-color);
+}
+a {
+    font-style: normal;
+}
 /*Колір основного тексту сторінки #212121;*/
 
 
