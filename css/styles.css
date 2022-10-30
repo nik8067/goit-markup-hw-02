@@ -210,7 +210,8 @@ a {
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    cursor: pointer;
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
 } 
 .button-second:hover,
 .button-second:active {
