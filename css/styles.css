@@ -98,7 +98,7 @@ button {
 }
 .button.primary:hover,
 .button.primary:active {
-    background-color: var(--title-text-color);
+    background-color: #188CE8;
 }
 /*content-title*/
 .content {
