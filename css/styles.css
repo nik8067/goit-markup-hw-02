@@ -10,7 +10,7 @@
 .page {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-    background-color: var(--primary-bck-color);
+    background-color: var(--white-fons-color);
     color: var(--primary-text-color);
     letter-spacing: 0.03em;
     }
@@ -231,7 +231,7 @@ a {
 
 }
 .benefits-subtitle {
-background-color: var(--white-fons-color);
+    
 }
 .benefits-items{
     font-weight: 700;
